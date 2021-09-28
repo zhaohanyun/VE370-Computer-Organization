@@ -1,0 +1,35 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/Add_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Add_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/PC_ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_ADD4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/alucontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/branchunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/datamemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/instruction_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/regmux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/shiftleft2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shiftleft2_26bit
+INFO: [VRFC 10-311] analyzing module Shiftleft2_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/signextend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/singlecycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/project_1.srcs/sim_1/new/singlecyclesim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlecyclesim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

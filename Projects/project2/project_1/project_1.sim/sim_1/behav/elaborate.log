@@ -1,0 +1,45 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto dec2dfbfebf942f48a82959299d3f129 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot singlecyclesim_behav xil_defaultlib.singlecyclesim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/singlecycle.v" Line 4. Module singlecycle doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/PC.v" Line 4. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/control.v" Line 4. Module Control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/regfile.v" Line 4. Module Regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/regmux.v" Line 4. Module RegMux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/signextend.v" Line 4. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/alucontrol.v" Line 4. Module ALUcontrol doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v" Line 4. Module Mux32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/ALU.v" Line 4. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/branchunit.v" Line 4. Module BranchUnit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/shiftleft2.v" Line 11. Module Shiftleft2_32bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/PC_ADD.v" Line 4. Module PC_ADD4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/shiftleft2.v" Line 4. Module Shiftleft2_26bit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/Add_ALU.v" Line 4. Module Add_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v" Line 4. Module Mux32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v" Line 4. Module Mux32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v" Line 4. Module Mux32 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.inst_mem
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.Regfile
+Compiling module xil_defaultlib.RegMux
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.Mux32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BranchUnit
+Compiling module xil_defaultlib.Shiftleft2_32bit
+Compiling module xil_defaultlib.PC_ADD4
+Compiling module xil_defaultlib.Shiftleft2_26bit
+Compiling module xil_defaultlib.Add_ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.singlecycle
+Compiling module xil_defaultlib.singlecyclesim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot singlecyclesim_behav

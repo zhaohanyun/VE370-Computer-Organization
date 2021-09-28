@@ -1,0 +1,215 @@
+$date
+   Thu Nov 26 09:58:47 2020
+$end
+$version
+  2020.1
+$end
+$timescale
+  1ps
+$end
+$scope module cache_2b_test $end
+$var reg 1 ! read_write $end
+$var reg 10 " address [9:0] $end
+$var reg 8 # write_data [7:0] $end
+$var wire 8 $ read_data [7:0] $end
+$var wire 1 % hit $end
+$var integer 32 & count $end
+$scope module cache $end
+$var wire 8 $ cacheData [7:0] $end
+$var wire 1 % hit $end
+$var wire 1 ' write $end
+$var wire 10 ( address [9:0] $end
+$var wire 8 ) CPUwrite [7:0] $end
+$var wire 1 * memwrite $end
+$var wire 128 + readMain [127:0] $end
+$var wire 128 , writeCacheData [127:0] $end
+$var wire 10 - memoryAddress [9:0] $end
+$var wire 1 . memWrite $end
+$scope module MainMemory $end
+$var wire 1 . write $end
+$var wire 10 - FullAddress [9:0] $end
+$var wire 128 , WriteData [127:0] $end
+$var wire 128 + ReadData [127:0] $end
+$var integer 32 / i $end
+$var wire 8 0 Address [7:0] $end
+$upscope $end
+$scope module combined_module $end
+$var reg 8 1 cacheData [7:0] $end
+$var wire 1 ' write $end
+$var wire 10 ( address [9:0] $end
+$var wire 8 ) CPUwrite [7:0] $end
+$var reg 10 2 memoryAddress [9:0] $end
+$var reg 1 3 memWrite $end
+$var reg 128 4 writeCacheData [127:0] $end
+$var wire 128 + readMain [127:0] $end
+$var reg 1 5 detectHit $end
+$var reg 1 6 block $end
+$var wire 1 7 hit $end
+$var wire 4 8 byte_addr [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+bx #
+bx $
+0%
+b0 &
+0'
+b0 (
+bx )
+z*
+b0 +
+bx ,
+b0 -
+0.
+b100000000 /
+b0 0
+bx 1
+b0 2
+03
+bx 4
+05
+06
+07
+b0 8
+$end
+#300
+b0 $
+b0 1
+b0 2
+03
+17
+#5000
+b1 &
+#10000
+1!
+b0 "
+b11111111 #
+1%
+b10 &
+1'
+b11111111 )
+b0 1
+b0 2
+03
+15
+#15000
+b11 &
+#20000
+0!
+b0 "
+b11111111 $
+b100 &
+0'
+b11111111 1
+b0 2
+03
+15
+#25000
+b101 &
+#30000
+b1000000000 "
+0%
+b110 &
+b1000000000 (
+b0 +
+b1000000000 -
+b10000000 0
+b1000000000 2
+03
+05
+07
+#30300
+b0 $
+b0 1
+b1000000000 2
+03
+17
+#35000
+b111 &
+#40000
+b0 "
+b11111111 $
+1%
+b1000 &
+b0 (
+b0 +
+b0 -
+b0 0
+b11111111 1
+b0 2
+03
+15
+17
+#45000
+b1001 &
+#50000
+b1100000000 "
+0%
+b1010 &
+b1100000000 (
+b0 +
+b1100000000 -
+b11000000 0
+b1100000000 2
+03
+05
+07
+#50300
+b0 $
+b0 1
+b1100000000 2
+03
+17
+#55000
+b1011 &
+#60000
+b1000000000 "
+b1100 &
+b1000000000 (
+b0 +
+b1000000000 -
+b10000000 0
+b1000000000 2
+03
+05
+07
+#60200
+b11111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 +
+b11111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ,
+b0 -
+1.
+b0 0
+b0 2
+13
+b11111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 4
+#60300
+b0 +
+b1000000000 -
+0.
+b10000000 0
+b1000000000 2
+03
+#60500
+b0 1
+b1000000000 2
+03
+17
+#65000
+b1101 &
+#70000
+b1110 &
+#75000
+b1111 &
+#80000
+b10000 &
+#85000
+b10001 &
+#90000
+b10010 &
+#95000
+b10011 &

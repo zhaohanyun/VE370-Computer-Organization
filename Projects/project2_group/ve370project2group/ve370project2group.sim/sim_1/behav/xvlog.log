@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group/ve370project2group.srcs/sim_1/new/tyc_part.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test_Bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group/ve370project2group.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

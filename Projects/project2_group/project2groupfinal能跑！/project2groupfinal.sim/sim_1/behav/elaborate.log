@@ -1,0 +1,39 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 32866c60b9ef4118b62ff4960a48eadb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot p2pipelineSIM_behav xil_defaultlib.p2pipelineSIM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux232
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.onebitALU
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.instructionMem
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.shiftLeft26
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.muxControl
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.Equal
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.shiftLeft16
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.mux432
+Compiling module xil_defaultlib.mux25
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Hazard_Detection_Unit
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.project2pipeline
+Compiling module xil_defaultlib.p2pipelineSIM
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot p2pipelineSIM_behav

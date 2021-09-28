@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Nov 12 02:28:09 2020
+# Process ID: 22572
+# Current directory: C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13268 C:\Users\Administrator\Desktop\VE370\Projects\project2\project_1\project_1.xpr
+# Log file: C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+add_bp {C:/Users/Administrator/Desktop/VE370/Projects/project2/regfile.v} 17
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+close_sim
+launch_simulation
+source singlecyclesim.tcl
+synth_design -rtl -name rtl_1
+close_sim

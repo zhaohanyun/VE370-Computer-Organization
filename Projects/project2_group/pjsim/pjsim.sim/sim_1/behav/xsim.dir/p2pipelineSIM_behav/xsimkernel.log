@@ -1,0 +1,7 @@
+Running: xsim.dir/p2pipelineSIM_behav/xsimk.exe -simmode gui -wdb p2pipelineSIM_behav.wdb -simrunnum 0 -socket 53088
+Design successfully loaded
+Design Loading Memory Usage: 7104 KB (Peak: 7104 KB)
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 8260 KB (Peak: 8260 KB)
+Simulation CPU Usage: 203 ms

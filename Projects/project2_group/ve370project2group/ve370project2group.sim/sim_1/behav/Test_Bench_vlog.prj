@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../Hazard_Detection_Unit.v"
+verilog xil_defaultlib  "../../../ve370project2group.srcs/sim_1/new/tyc_part.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

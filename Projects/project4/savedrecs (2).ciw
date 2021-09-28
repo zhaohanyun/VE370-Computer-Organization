@@ -1,0 +1,63 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU LeCun, Y
+   Bengio, Y
+   Hinton, G
+AF LeCun, Yann
+   Bengio, Yoshua
+   Hinton, Geoffrey
+TI Deep learning
+SO NATURE
+LA English
+DT Review
+ID NEURAL-NETWORK; ARCHITECTURE; RECOGNITION; ALGORITHM
+AB Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction. These methods have dramatically improved the state-of-the-art in speech recognition, visual object recognition, object detection and many other domains such as drug discovery and genomics. Deep learning discovers intricate structure in large data sets by using the backpropagation algorithm to indicate how a machine should change its internal parameters that are used to compute the representation in each layer from the representation in the previous layer. Deep convolutional nets have brought about breakthroughs in processing images, video, speech and audio, whereas recurrent nets have shone light on sequential data such as text and speech.
+C1 [LeCun, Yann] Facebook Al Res, New York, NY 10003 USA.
+   [LeCun, Yann] New York Univ, New York, NY 10003 USA.
+   [Bengio, Yoshua] Univ Montreal, Dept Comp Sci & Operat Res, Montreal, PQ H3C 3J7, Canada.
+   [Hinton, Geoffrey] Google, Mountain View, CA 94043 USA.
+   [Hinton, Geoffrey] Univ Toronto, Dept Comp Sci, Toronto, ON M5S 3G4, Canada.
+RP LeCun, Y (corresponding author), Facebook Al Res, 770 Broadway, New York, NY 10003 USA.
+EM yann@cs.nyu.edu
+RI Jeong, Yongwook/N-7413-2016
+FU Natural Sciences and Engineering Research Council of CanadaNatural
+   Sciences and Engineering Research Council of CanadaCGIAR; Canadian
+   Institute For Advanced Research (CIFAR)Canadian Institute for Advanced
+   Research (CIFAR); National Science FoundationNational Science Foundation
+   (NSF); Office of Naval ResearchOffice of Naval Research
+FX The authors would like to thank the Natural Sciences and Engineering
+   Research Council of Canada, the Canadian Institute For Advanced Research
+   (CIFAR), the National Science Foundation and Office of Naval Research
+   for support. Y.L. and Y.B. are CIFAR fellows.
+NR 103
+TC 16887
+Z9 17800
+U1 1333
+U2 10048
+PU NATURE PUBLISHING GROUP
+PI LONDON
+PA MACMILLAN BUILDING, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 0028-0836
+EI 1476-4687
+J9 NATURE
+JI Nature
+PD MAY 28
+PY 2015
+VL 521
+IS 7553
+BP 436
+EP 444
+DI 10.1038/nature14539
+PG 9
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA CJ2AN
+UT WOS:000355286600030
+PM 26017442
+HC Y
+HP N
+DA 2020-12-01
+ER
+
+EF

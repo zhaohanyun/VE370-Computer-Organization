@@ -1,0 +1,21 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Users/Administrator/Desktop/VE370/Projects/project2/ALU.v,1605077590,verilog,,,,ALU,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/Add_ALU.v,1605072294,verilog,,,,Add_ALU,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/PC.v,1605129355,verilog,,,,PC,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/PC_ADD.v,1605072294,verilog,,,,PC_ADD4,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/alucontrol.v,1604981136,verilog,,,,ALUcontrol,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/branchunit.v,1605067685,verilog,,,,BranchUnit,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/control.v,1605119629,verilog,,,,Control,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/datamemory.v,1605124707,verilog,,,,DataMemory,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/instruction_mem.v,1605244397,verilog,,,,inst_mem,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/mux32.v,1605067685,verilog,,,,Mux32,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/project_1.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/project_1/project_1.srcs/sim_1/new/singlecyclesim.v,1605244458,verilog,,,,singlecyclesim,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/regfile.v,1605124977,verilog,,,,Regfile,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/regmux.v,1605067685,verilog,,,,RegMux,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/shiftleft2.v,1605072294,verilog,,,,Shiftleft2_26bit;Shiftleft2_32bit,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/signextend.v,1605078534,verilog,,,,SignExtend,,,,,,,,
+C:/Users/Administrator/Desktop/VE370/Projects/project2/singlecycle.v,1605191262,verilog,,,,singlecycle,,,,,,,,

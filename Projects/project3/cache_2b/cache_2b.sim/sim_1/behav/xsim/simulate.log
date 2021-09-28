@@ -1,0 +1,79 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+count=          0 read_write = 0
+count=          0 ReadData = 0x00
+count=          0 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          1 read_write = 1
+count=          1 ReadData = 0x00
+count=          1 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          2 read_write = 1
+count=          2 ReadData = 0x00
+count=          2 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          3 read_write = 0
+count=          3 ReadData = 0x00
+count=          3 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          4 read_write = 0
+count=          4 ReadData = 0xff
+count=          4 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          5 read_write = 0
+count=          5 ReadData = 0xff
+count=          5 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          6 read_write = 0
+count=          6 ReadData = 0x00
+count=          6 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          7 read_write = 0
+count=          7 ReadData = 0x00
+count=          7 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          8 read_write = 0
+count=          8 ReadData = 0xff
+count=          8 MainMemory = 0x00000000
+----------------------------------------------------------
+count=          9 read_write = 0
+count=          9 ReadData = 0xff
+count=          9 MainMemory = 0x00000000
+----------------------------------------------------------
+count=         10 read_write = 0
+count=         10 ReadData = 0x00
+count=         10 MainMemory = 0x00000000
+----------------------------------------------------------
+count=         11 read_write = 0
+count=         11 ReadData = 0x00
+count=         11 MainMemory = 0x00000000
+----------------------------------------------------------
+count=         12 read_write = 0
+count=         12 ReadData = 0x00
+count=         12 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         13 read_write = 0
+count=         13 ReadData = 0x00
+count=         13 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         14 read_write = 0
+count=         14 ReadData = 0x00
+count=         14 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         15 read_write = 0
+count=         15 ReadData = 0x00
+count=         15 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         16 read_write = 0
+count=         16 ReadData = 0x00
+count=         16 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         17 read_write = 0
+count=         17 ReadData = 0x00
+count=         17 MainMemory = 0xff000000
+----------------------------------------------------------
+count=         18 read_write = 0
+count=         18 ReadData = 0x00
+count=         18 MainMemory = 0xff000000
+----------------------------------------------------------
+$finish called at time : 100 ns : File "C:/Users/35739/Desktop/Study/ve370/lab/p3/project_3/project_3.srcs/sim_1/new/cache2b_test.v" Line 15

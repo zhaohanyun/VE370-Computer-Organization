@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../ALU.v"
+verilog xil_defaultlib  "../../../../Add_ALU.v"
+verilog xil_defaultlib  "../../../../PC.v"
+verilog xil_defaultlib  "../../../../PC_ADD.v"
+verilog xil_defaultlib  "../../../../alucontrol.v"
+verilog xil_defaultlib  "../../../../branchunit.v"
+verilog xil_defaultlib  "../../../../control.v"
+verilog xil_defaultlib  "../../../../datamemory.v"
+verilog xil_defaultlib  "../../../../instruction_mem.v"
+verilog xil_defaultlib  "../../../../mux32.v"
+verilog xil_defaultlib  "../../../../regfile.v"
+verilog xil_defaultlib  "../../../../regmux.v"
+verilog xil_defaultlib  "../../../../shiftleft2.v"
+verilog xil_defaultlib  "../../../../signextend.v"
+verilog xil_defaultlib  "../../../../singlecycle.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sim_1/new/singlecyclesim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

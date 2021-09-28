@@ -1,0 +1,58 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.srcs/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.sim/p2pipelineSIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p2pipelineSIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2_group/project2groupfinal能跑！/project2groupfinal.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

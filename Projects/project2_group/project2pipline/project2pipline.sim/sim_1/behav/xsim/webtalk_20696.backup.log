@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov  7 15:30:29 2020
+# Process ID: 20696
+# Current directory: D:/Courses/VE370/Project/p2/project2pipline/project2pipline.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Courses/VE370/Project/p2/project2pipline/project2pipline.sim/sim_1/behav/xsim/xsim.dir/Adder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Courses/VE370/Project/p2/project2pipline/project2pipline.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Courses/VE370/Project/p2/project2pipline/project2pipline.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Courses/VE370/Project/p2/project2pipline/project2pipline.sim/sim_1/behav/xsim/xsim.dir/Adder_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 113.898 ; gain = 23.680
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov  7 15:30:48 2020...

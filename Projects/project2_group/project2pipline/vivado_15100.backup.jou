@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov  8 09:54:50 2020
+# Process ID: 15100
+# Current directory: D:/Courses/VE370/Project/p2/project2pipline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2428 D:\Courses\VE370\Project\p2\project2pipline\project2pipline.xpr
+# Log file: D:/Courses/VE370/Project/p2/project2pipline/vivado.log
+# Journal file: D:/Courses/VE370/Project/p2/project2pipline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Courses/VE370/Project/p2/project2pipline/project2pipline.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim

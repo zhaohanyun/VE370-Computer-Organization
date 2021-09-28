@@ -1,0 +1,8 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_Vivado/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 59002f8076734e49b97baa4d12cd188a --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot p2pipelineSIM_behav xil_defaultlib.p2pipelineSIM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port Visreg [E:/SJTU/2020 Fall/VE370/Project2/project_2_group_2/project_2_group_2.srcs/sim_1/new/p2pipelineSIM.v:107]
+ERROR: [VRFC 10-29] project2pipeline expects 4 arguments [E:/SJTU/2020 Fall/VE370/Project2/project_2_group_2/project_2_group_2.srcs/sim_1/new/p2pipelineSIM.v:107]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

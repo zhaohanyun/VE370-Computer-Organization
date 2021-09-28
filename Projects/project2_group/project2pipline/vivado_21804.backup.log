@@ -1,0 +1,631 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Nov  8 11:08:33 2020
+# Process ID: 21804
+# Current directory: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19996 C:\Users\Administrator\Desktop\VE370\Projects\project2 group\project2pipline\project2pipline.xpr
+# Log file: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline/project2pipline.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Courses/VE370/Project/p2/project2pipline' since last save.
+ERROR: [Project 1-208] No val for DA Elab Attr
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+open_project {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline/project2pipline.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Courses/VE370/Project/p2/project2pipline' since last save.
+ERROR: [Project 1-208] No val for DA Elab Attr
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+open_project {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/project2pipline/project2pipline.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Courses/VE370/Project/p2/project2pipline' since last save.
+ERROR: [Project 1-208] No val for DA Elab Attr
+Scanning sources...
+ERROR: [Common 17-70] Application Exception: SrcMgr::createSS : type not set
+create_project project_1 {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1} -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Vivado/2017.2/data/ip'.
+add_files -norecurse {{C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'project2pipeline' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj project2pipeline_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0065f2f142e246d0907f53e4b23f6b49 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project2pipeline_behav xil_defaultlib.project2pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 2 for port operation [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux232
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.onebitALU
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.instructionMem
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.shiftLeft26
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.muxControl
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.Equal
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.shiftLeft16
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.mux432
+Compiling module xil_defaultlib.mux25
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Hazard_Detection_Unit
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.project2pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot project2pipeline_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/VE370/Projects/project2 -notrace
+couldn't read file "C:/Users/Administrator/Desktop/VE370/Projects/project2": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  8 11:28:40 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "project2pipeline_behav -key {Behavioral:sim_1:Functional:project2pipeline} -tclbatch {project2pipeline.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source project2pipeline.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File D:/Courses/VE370/Project/p2/InstructionMem_for_P2_Demo.txt referenced on C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v at line 29 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'project2pipeline_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 890.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'project2pipeline' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj project2pipeline_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0065f2f142e246d0907f53e4b23f6b49 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project2pipeline_behav xil_defaultlib.project2pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 2 for port operation [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux232
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.onebitALU
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.instructionMem
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.shiftLeft26
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.muxControl
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.Equal
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.shiftLeft16
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.mux432
+Compiling module xil_defaultlib.mux25
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Hazard_Detection_Unit
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.project2pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot project2pipeline_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/VE370/Projects/project2 -notrace
+couldn't read file "C:/Users/Administrator/Desktop/VE370/Projects/project2": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  8 11:35:29 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "project2pipeline_behav -key {Behavioral:sim_1:Functional:project2pipeline} -tclbatch {project2pipeline.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source project2pipeline.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ERROR: Illegal binary digit '4' found in data of file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/InstructionMem.txt"
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'project2pipeline_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 890.949 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'project2pipeline' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj project2pipeline_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0065f2f142e246d0907f53e4b23f6b49 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot project2pipeline_behav xil_defaultlib.project2pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux232
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.onebitALU
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.instructionMem
+Compiling module xil_defaultlib.IFID
+Compiling module xil_defaultlib.shiftLeft26
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.muxControl
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.Equal
+Compiling module xil_defaultlib.signExtend
+Compiling module xil_defaultlib.shiftLeft16
+Compiling module xil_defaultlib.IDEX
+Compiling module xil_defaultlib.mux432
+Compiling module xil_defaultlib.mux25
+Compiling module xil_defaultlib.ALUControl
+Compiling module xil_defaultlib.EXMEM
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MEMWB
+Compiling module xil_defaultlib.Hazard_Detection_Unit
+Compiling module xil_defaultlib.Forward_Unit
+Compiling module xil_defaultlib.project2pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot project2pipeline_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/VE370/Projects/project2 -notrace
+couldn't read file "C:/Users/Administrator/Desktop/VE370/Projects/project2": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  8 11:42:06 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "project2pipeline_behav -key {Behavioral:sim_1:Functional:project2pipeline} -tclbatch {project2pipeline.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source project2pipeline.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ERROR: Illegal binary digit '4' found in data of file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/InstructionMem.txt"
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'project2pipeline_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 890.949 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/project2pipeline_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'p2pipelineSIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj p2pipelineSIM_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p2pipelineSIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0065f2f142e246d0907f53e4b23f6b49 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot p2pipelineSIM_behav xil_defaultlib.p2pipelineSIM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port clk [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v:86]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net clk is not permitted [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v:86]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 896.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/project2pipeline_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/xelab.pb
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'p2pipelineSIM' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj p2pipelineSIM_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/EXMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Equal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Equal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Forward_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/Hazard_Detection_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard_Detection_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IDEX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/IFID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/MEMWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux232.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux232
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux25
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/mux432.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux432
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/muxControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muxControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/onebitALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onebitALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/project2pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module project2pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/shiftLeft26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftLeft26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/signExend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p2pipelineSIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/software/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 0065f2f142e246d0907f53e4b23f6b49 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot p2pipelineSIM_behav xil_defaultlib.p2pipelineSIM xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port clk [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v:86]
+ERROR: [VRFC 10-529] concurrent assignment to a non-net clk is not permitted [C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c有问题/sources_1/new/p2pipelineSIM.v:86]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/VE370/Projects/project2 group/p2 3c/project_1/project_1.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 896.051 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  8 12:13:06 2020...

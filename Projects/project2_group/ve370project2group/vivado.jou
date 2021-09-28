@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Nov  8 15:46:20 2020
+# Process ID: 10880
+# Current directory: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19624 C:\Users\Administrator\Desktop\VE370\Projects\project2 group\ve370project2group\ve370project2group.xpr
+# Log file: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/ve370project2group/ve370project2group.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Test_Bench.tcl
+close_sim
+launch_simulation
+source Test_Bench.tcl
+close_sim
+launch_simulation
+source Test_Bench.tcl
+create_project pjsim {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/pjsim} -part xc7a35tcpg236-1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sim_1/new/p2pipelineSIM.v}}
+add_files -norecurse {{C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/registers.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/mux25.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/shiftLeft16.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/EXMEM.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/Hazard_Detection_Unit.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/MEMWB.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/Forward_Unit.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/dataMemory.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/ALUControl.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/project2pipeline.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/Equal.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/mux232.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/ALU.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/add.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/IDEX.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/mux2.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/Control.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/instructionMem.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/mux4.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/signExend.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/IFID.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/muxControl.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/shiftLeft26.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/Adder.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/PC.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/onebitALU.v} {C:/Users/Administrator/Desktop/VE370/Projects/project2 group/sources11081652/sources_1/new/mux432.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim
+launch_simulation
+source p2pipelineSIM.tcl
+close_sim
+launch_simulation
+source p2pipelineSIM.tcl
+current_project ve370project2group
+current_sim simulation_3
+close_sim
+close_project
+close_sim
